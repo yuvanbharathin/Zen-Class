@@ -1,0 +1,34 @@
+Write a blog on the difference between document and window objects
+
+<!-- Document Object: -->
+The Document object is the HTML document that appears in the browser window and serves as an interface for interacting with the web page’s content. The browser generates a Document Object Model(DOM) of a web page upon loading it.
+The DOM is a logical tree in a document, with methods allowing programmatic access to change its structure, style, or content.
+The DOM manipulation tool offers methods to access and manipulate the structure and content of a document, such as getElementById(), querySelector(), createElement(), and innerHTML. It represents the entire HTML document as a node tree, with the Document object as the root node. It allows dynamic updates and interactions with web page content.
+
+<!-- Window Object: -->
+The Window object is a global object in client-side JavaScript, representing the browser window containing a DOM document and acting as the root of the document object model.
+The window object, supported by all browsers, represents the browser’s window and automatically includes global JavaScript objects, functions, and variables as members.
+The Window object is responsible for managing global variables, functions, and objects, providing methods for browser interaction and managing properties related to frames, tabs, or windows, such as alert(), confirm(), setTimeout(), and setInterval().
+
+
+
+<!-- Document -->
+* It represents any HTML document or web page that is loaded in the browser.
+* It is loaded inside the window.
+* It is the object of window property.
+* All the tags, elements with attributes in HTML are part of the document.
+* We can access the document from a window using the window. document.
+* The document is part of BOM (browser object model) and dom (Document object model)
+* Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+* syntax: document.propertyname;
+
+
+<!-- Window -->
+* It represents a browser window or frame that displays the contents of the webpage.
+* It is the very first object that is loaded in the browser.
+* It is the object of the browser.
+* Global objects, functions, and variables of JavaScript are members of the window object.
+* We can access the window from the window only. i.e. window.window
+* The window is part of BOM (browser object model) and dom (Document object model)
+* Properties of the window object cannot be accessed by the document object.
+* syntax: window.propertyname;
