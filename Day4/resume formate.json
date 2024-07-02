@@ -1,0 +1,55 @@
+{
+    "name": "Yuvanbharathi",
+    "contactInformation": {
+      "email": "nyuvanbharathi@gmail.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St, chennai"
+    },
+    "summary": "Experienced software developer with a strong background in developing scalable web applications and working with cutting-edge technologies. Proficient in multiple programming languages and frameworks.",
+    "education": [
+      {
+        "degree": "Bachelor of Engineering in Computer Science",
+        "institution": "MGR University",
+        "graduationYear": 2023
+      }
+    ],
+
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "HTML",
+      "CSS",
+      "RESTful APIs",
+      "Git"
+    ],
+    "certifications": [
+      {
+        "name": "Certified MERN Developer",
+        "issuingOrganization": "Guvi",
+        "issueDate": "March 2024"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Personal Portfolio Website",
+        "description": "Developed a personal portfolio website to showcase my projects and skills. Utilized React for the frontend and Node.js for the backend.",
+        "technologies": [
+          "React",
+          "Node.js",
+          "CSS"
+        ],
+        "link": "http://www.yuvanportfolio.com"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Professional working proficiency"
+      }
+    ]
+  }
